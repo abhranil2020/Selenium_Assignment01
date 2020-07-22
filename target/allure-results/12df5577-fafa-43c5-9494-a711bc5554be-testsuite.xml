@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1595412170369" stop="1595412188804" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>As a Stackover user I should be able to login and logout with valid credentials</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1595412170369" stop="1595412188803" status="passed">
+            <name>Sucessfull login with Valid Credentials</name>
+            <title>Sucessfull login with Valid Credentials</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1595412176843" stop="1595412178698" status="passed">
+                    <name>Given User Invoke URL"https://stackoverflow.com/"</name>
+                    <title>Given User Invoke URL"https://stackoverflow.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1595412178699" stop="1595412179446" status="passed">
+                    <name>Then User Click on Log in button and wait for sign in page</name>
+                    <title>Then User Click on Log in button and wait for sign in page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1595412179447" stop="1595412179708" status="passed">
+                    <name>When User Enter Email address as "abhranil.blr@gmail.com" and Password as "April2020#".</name>
+                    <title>When User Enter Email address as "abhranil.blr@gmail.com" and Password as "April2020#".</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1595412179708" stop="1595412182780" status="passed">
+                    <name>And Click on Log in button</name>
+                    <title>And Click on Log in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1595412182780" stop="1595412185567" status="passed">
+                    <name>Then StackOverflow link should be displayed</name>
+                    <title>Then StackOverflow link should be displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1595412185567" stop="1595412185603" status="passed">
+                    <name>And Tag link should be displayed</name>
+                    <title>And Tag link should be displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1595412185604" stop="1595412188039" status="passed">
+                    <name>When User click on Logout button</name>
+                    <title>When User click on Logout button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1595412188039" stop="1595412188106" status="passed">
+                    <name>Then I got log out from the application and land on sign in page</name>
+                    <title>Then I got log out from the application and land on sign in page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Sucessfull login with Valid Credentials"/>
+                <label name="feature" value="As a Stackover user I should be able to login and logout with valid credentials"/>
+                <label name="host" value="DESKTOP-OS9HIGU"/>
+                <label name="thread" value="8944@DESKTOP-OS9HIGU.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="As a Stackover user I should be able to login and logout with valid credentials"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
